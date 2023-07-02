@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "idiots-new-cms",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
