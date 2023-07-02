@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_images",
+  "info": {
+    "singularName": "main-image",
+    "pluralName": "main-images",
+    "displayName": "MainImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

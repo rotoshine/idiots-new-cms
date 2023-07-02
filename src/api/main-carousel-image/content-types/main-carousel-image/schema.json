@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_carousel_images",
+  "info": {
+    "singularName": "main-carousel-image",
+    "pluralName": "main-carousel-images",
+    "displayName": "MainCarouselImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
